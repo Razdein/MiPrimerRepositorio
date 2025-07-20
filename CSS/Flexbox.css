@@ -1,0 +1,15 @@
+.contenedor {
+  background-color: bisque;
+  margin: 80px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+.caja {
+  background: #e01616;
+  padding: 20px;
+  margin: 10px;
+}

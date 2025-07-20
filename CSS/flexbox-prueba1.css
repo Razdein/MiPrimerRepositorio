@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.tarjeta {
+  width: 100px;
+  height: 100px;
+  background-color: #80f17c;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+}

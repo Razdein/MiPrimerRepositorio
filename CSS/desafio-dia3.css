@@ -1,0 +1,12 @@
+#titulo {
+    border: 5px solid black;
+    margin: 60px; padding: 60px;
+    font-size: 50px;
+     text-align: center;
+    }
+
+p {color: rgb(88, 88, 7); font-family: Arial, Helvetica, sans-serif;}
+p.primero{color: darkturquoise; font-size: 40px; font-family: 'Times New Roman', Times, serif;}
+p.segundo{color: crimson; font-size: 30px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+body {text-align: center;}

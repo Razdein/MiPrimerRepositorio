@@ -1,0 +1,12 @@
+p {color: rgb(226, 45, 13);}
+h2 {color:rgb(14, 10, 236)}
+h3 {color:rgb(14, 202, 14)}
+li {color: rgb(238, 160, 15);}
+body {background-color: rgb(119, 192, 216);}
+p {background-color: rgb(216, 216, 160);}
+p {font-family: "Times New Roman", sans-serif;}
+p {font-size: 20px;}
+p {font-weight: bold;}
+h2 {border: 5px solid black;}
+h3 {border: 5px dotted rgb(248, 245, 245);}
+p {border-radius: 10px;}

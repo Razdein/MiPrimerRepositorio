@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Práctica: Box Model</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 40px;
+    }
+
+    .caja {
+      background-color: #ffdede;
+      color: #003366;
+      padding: 50px;         /* podés cambiar este valor */
+      margin: 10px rgb(5, 211, 5);         /* podés cambiar este valor */
+      border: 4px dotted red;  /* podés cambiar el grosor o estilo */
+      border-radius: 10px;   /* bordes redondeados */
+      width: 300px;
+    }
+
+    .explicacion {
+      max-width: 600px;
+      padding: 20px;
+      margin-top: 40px;
+      border: 1px dashed #ccc;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Box Model en acción</h1>
+
+  <div class="caja">
+    ¡Hola Andrés! Esta es una caja con estilos.
+  </div>
+
+  <div class="explicacion">
+    <p><strong>padding:</strong> espacio interno (entre el contenido y el borde).</p>
+    <p><strong>margin:</strong> espacio externo (fuera del borde, separa la caja de otros elementos).</p>
+    <p><strong>border:</strong> borde visible alrededor de la caja.</p>
+    <p><strong>box-sizing: border-box:</strong> el padding y el borde se incluyen en el tamaño total de la caja.</p>
+  </div>
+
+</body>
+</html>

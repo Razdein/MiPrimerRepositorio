@@ -1,0 +1,24 @@
+h4 {color: tomato;}
+
+p {color:mediumvioletred}
+
+#título {color: slateblue;}
+#subtítulo {color:seagreen}
+
+p.Texto {color: darkgoldenrod;}
+
+p.especial {color: midnightblue;}
+
+p.Texto, p.especial, p.y, p.Text, p.special{border: 5px solid black;}
+
+div p {color: dodgerblue;}
+div p, div h2, div h3{ font-size: 24px;}
+
+
+
+div {
+  border: 10px solid black;
+  padding: 10px;
+  margin: 110px;}
+
+* {font-size: 15px; color: black;}

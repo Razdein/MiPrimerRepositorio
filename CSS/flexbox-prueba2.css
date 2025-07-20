@@ -1,0 +1,29 @@
+body {
+  margin: 10px;
+  margin-left: 15px;
+  height:100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.tarjeta {
+  width: 100px;
+  height: 100px;
+  background-color: #64bbdd;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  border-radius: 100px;
+}
