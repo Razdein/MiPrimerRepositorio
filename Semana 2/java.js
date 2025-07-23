@@ -1,7 +1,21 @@
-let num1 = 5;
-let num2 = 8;
-let num3 = 2;
 
-let promedio = (num1 + num2 + num3) / 3;
+let usuario = "andrew";
 
-console.log("El promedio es:", promedio);
+if (usuario === "andrew") {
+  console.log("Bienvenido, administrador");
+} else {
+  console.log("Acceso restringido");
+}
+
+
+let precio = 1000;
+let descuento = 50;
+let precioFinal = precio - (precio * descuento/100);
+
+console.log ("Precio final con descuento", precioFinal);
+
+if (descuento >= 50) {
+    console.log("Oferta especial!");
+} else {
+    console.log("");
+}
