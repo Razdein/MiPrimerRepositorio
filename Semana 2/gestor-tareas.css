@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+  margin: 2rem;
+  background: #f3ecec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 450px;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
