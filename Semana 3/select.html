@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Prueba Select</title>
+</head>
+<body>
+    <select id="miSelect">
+  <option value="rojo">Rojo</option>
+  <option value="azul">Azul</option>
+</select>
+
+<script>
+  const select = document.getElementById("miSelect");
+
+  select.addEventListener("change", () => {
+    console.log("Seleccionaste:", select.value);
+  });
+</script>
+</body>
+</html>
+<!--esto detecta cada vez que elegimos un select y lo muestra en la consola -->

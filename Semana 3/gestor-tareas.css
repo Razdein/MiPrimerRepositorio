@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  margin: 2rem;
+  background: #f3ecec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 450px;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.completado {
+  text-decoration: line-through;
+  color: rgb(233, 94, 94);
+}
+
+li {
+  color: black;
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  color: #d10e0e;
+  text-shadow: 0 0 5px #d10e0e, 0 0 100px #d10e0e;
+}
