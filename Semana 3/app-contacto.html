@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Contacto</title>
+    <link rel="stylesheet" href="app-contacto.css">
+    <link rel="icon" href="icono.png" type="image/png">
+</head>
+<body>
+    <h2>Lista de Contactos</h2>
+    <form id="formContacto">
+    <input type="text" id="nombre" placeholder="Nombre del contacto" required />
+     <input type="number" id="telefono" placeholder="Teléfono" required />
+     <button type="submit">Agregar</button>
+    </form>
+
+    <ul id="listaContactos"></ul>
+    <div id="errores"></div>
+    <script src="app-contacto.js"></script>
+</body>
+</html>
